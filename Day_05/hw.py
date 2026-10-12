@@ -18,7 +18,7 @@ print(num_1 % num_2)
 
 fruit = input("Which product do you want")
 price = float(input("Enter the product price"))
-how_many = int(input("How many apple do you want"))
+how_many = int(input("How many product do you want"))
 
 print(fruit)
 print(price)
@@ -35,5 +35,5 @@ print(User_name)
 print("Your English grade is" + " " + str(User_grade_in_English))
 print("Your History grade is" + " " + str(User_grade_in_History))
 print("Your Geography grade is" + " " + str(User_grade_in_Geography))
-print("Your average grade is" + " " + User_average_grades // 3)
+print("Your average grade is" + " " + str(User_average_grades // 3))
 
