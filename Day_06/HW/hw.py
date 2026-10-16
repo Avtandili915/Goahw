@@ -1,12 +1,4 @@
 
-
-# 3) მომხმარებელს შეაყვანინეთ გამოცდაზე მიღებული ქულა (0-დან 100-მდე). შეამოწმეთ, არის თუ არა ქულა 50-ზე მეტი ან ტოლი. დაბეჭდეთ შედარების შედეგი.
-
-# 4) მომხმარებელს შეაყვანინეთ პროდუქტის ფასი და თანხა, რომელსაც იხდის. გარდაქმენით ორივე მნიშვნელობა float ტიპად და შეამოწმეთ, საკმარისია თუ არა მომხმარებლის თანხა პროდუქტის შესაძენად.
-
-# 5) მომხმარებელს შეაყვანინეთ მთელი რიცხვი. გამოიყენეთ შედარების ოპერატორი == და ნაშთის ოპერატორი %, რათა შეამოწმოთ, იყოფა თუ არა რიცხვი 2-ზე უნაშთოდ. დაბეჭდეთ შედარების შედეგი.
-
-
 num1 = int(input("Enter First Whole Number"))
 num2 = int(input("Enter Second Whole Number"))
 num3 = int(input("Enter Theerd Whole Number"))
@@ -14,3 +6,16 @@ num3 = int(input("Enter Theerd Whole Number"))
 print(num1 > num2)
 print(num1 < num2)
 print(num1 == num2 == num3)
+
+score = int(input("Enter exem score (0-100): "))
+
+print(score >= 50)
+
+price = float(input("Enter Product price "))
+money = float(input("Enter how much money do you have "))
+
+print(money >= price)
+
+user_wholenumber = int(input("Enter Whole Number "))
+
+print(user_wholenumber % 2 == 0)
