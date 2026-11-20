@@ -2,11 +2,11 @@
 # ციფრების რაოდენობა, ციფრების ჯამი და რამდენი ლუწი და კენტი ციფრია მასში. საბოლოოდ გამოიტანეთ შედეგები და დამატებით განსაზღვრეთ, ციფრების ჯამი ლუწია თუ კენტი.
 
 
-possitive=0
-negative=0
-odd=0
-even=0
-inp =int(input("Enter ur number: "))
+# possitive=0
+# negative=0
+# odd=0
+# even=0
+# inp =int(input("Enter ur number: "))
 
-for i in inp:
-    print()
+# for i in inp:
+#     print()
